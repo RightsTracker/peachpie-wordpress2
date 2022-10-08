@@ -34,9 +34,9 @@ namespace PeachPied.Demo
             services.AddResponseCompression();
             services.AddWordPress(options =>
             {
-                // options.SiteUrl =
-                // options.HomeUrl = "http://localhost:5004";
-                
+                options.SiteUrl =
+                options.HomeUrl = "http://localhost:5004";
+
                 // options.PluginContainer.Add(new DashboardPlugin());
             });
         }
