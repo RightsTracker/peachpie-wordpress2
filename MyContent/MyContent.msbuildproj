@@ -1,6 +1,10 @@
 <Project Sdk="PeachPied.WordPress.Build.Plugin">
   <PropertyGroup>
-    <WpContentTarget></WpContentTarget>
+    <WpContentTarget>
+    </WpContentTarget>
     <PhpRelativePath>wp-content/</PhpRelativePath>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="elementor" Version="3.7.0-rc-005" />
+  </ItemGroup>
 </Project>
